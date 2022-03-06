@@ -1,8 +1,8 @@
 .header__logo {
   width: 142px;
   height: 42px;
-  object-fit: cover;
   padding: 16px 0 48px 16px;
+  object-fit: cover;
 }
 
 @media screen and (min-width: 768px) {
