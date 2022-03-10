@@ -3,7 +3,7 @@
   background-color: #2A2C2F;
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .page {
     max-width: 768px;
   }
@@ -19,4 +19,4 @@
   .page {
     max-width: 1280px;
   }
-}
+} */
