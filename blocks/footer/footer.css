@@ -1,18 +1,20 @@
-.photo-grid {
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   max-width: calc(100% - 32px);
-  margin: 0 auto 64px;
+  margin: 0 auto 24px;
 }
 
 @media screen and (min-width: 768px) {
-  .photo-grid {
+  .footer {
+    flex-direction: row;
     max-width: calc(100% - 48px);
-    margin: 0 auto 88px;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .photo-grid {
+  .footer {
     max-width: calc(100% - 96px);
-    margin: 0 auto 92px;
   }
 }

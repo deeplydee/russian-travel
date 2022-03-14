@@ -23,7 +23,7 @@
   content: '';
   background: #2A2C2F;
   opacity: .3;
-  transition: opacity 0.3s ease-in;
+  transition: opacity .3s ease-in;
 }
 
 .cover__link:hover::after {

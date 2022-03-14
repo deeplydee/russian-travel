@@ -1,7 +1,7 @@
 .places__list {
   display: grid;
   gap: 50px;
-  padding: 0 0 66px 0;
+  padding: 0;
   margin: 0;
   list-style-type: none;
 }
@@ -9,13 +9,11 @@
 @media screen and (min-width: 768px) {
   .places__list {
     gap: 73px;
-    padding: 0 0 90px 0;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .places__list {
     gap: 80px;
-    padding: 0 0 92px 0;
   }
 }
